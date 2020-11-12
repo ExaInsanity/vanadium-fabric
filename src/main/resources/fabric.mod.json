@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "vanadium",
+  "version": "${version}",
+
+  "name": "vanadium-fabric",
+  "description": "Some sort of mod, apparently",
+  "authors": [
+    "ExaInsanity"
+  ],
+  "contact": {
+    "homepage": "https://insanity.network/",
+    "sources": "https://github.com/ExaInsanity/vanadium-fabric"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/vanadium/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "network.insanity.exa.vanadium.Main"
+    ]
+  },
+  "mixins": [
+    "vanadium.mixins.json"
+  ],
+  "accessWidener": "vanadium.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  },
+  "breaks": {
+    "optifabric": "*"
+  }
+}
