@@ -1,9 +1,10 @@
-
-
+import net.fabricmc.api.ModInitializer;
+import net.fabricmc.ModInitializer;
+import java.lang.Override;
+import java.lang.System;
 public class Main implements ModInitializer {
-
     @Override
-    public void onInitialize() {
-        System.out.println("nothing to see here");
-    }  
+    public void onEnable() {
+        System.out.println("vanadium loaded");
+    }
 }
