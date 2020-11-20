@@ -1,4 +1,4 @@
-package insanity.exa.vanadium;
+package network.insanity.exa.vanadium;
 
 import net.fabricmc.api.ModInitializer;
 import java.lang.Override;
@@ -8,7 +8,7 @@ public class Main implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        System.out.println("hi");
+        System.out.println("[Vanadium] hi");
     }
     
 }
