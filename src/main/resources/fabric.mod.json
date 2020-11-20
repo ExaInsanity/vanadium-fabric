@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "network.insanity.exa.vanadium.Main"
+      "insanity.exa.vanadium.Main"
     ]
   },
   "mixins": [
