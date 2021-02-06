@@ -1,7 +1,3 @@
 # vanadium-fabric
 
-something idk what
-
-## License
-
-This mod is available under the CC0 license.
+Currently out-of-development because of recent Fabric Project events and 1.16 being a nightmare, lets see whether things calm down.
